@@ -3,7 +3,7 @@ import yfinance
 from fastapi import FastAPI, Request, Depends, BackgroundTasks
 from fastapi.templating import Jinja2Templates
 from database import SessionLocal, engine
-from pydantic import BaseModel 
+from pydantic import BaseModel
 from models import Stock
 from sqlalchemy.orm import Session
 
